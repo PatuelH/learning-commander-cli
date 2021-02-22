@@ -12,8 +12,8 @@ program
   //.usage('encrypt|decrypt <password> <options>');
  
   program
-  .command('mopar <password>')
-   .description('List the lakers starting 5') 
+  .command('mopar')
+   .description('List the top horsepower cars in order from greatest to least') 
 
 //   .option('-k, --key <string>', 'String|phrase Key to Use')
   .action(function (password, options) {
@@ -25,8 +25,8 @@ program
    });
 
    program
-   .command('lakers <password>')
-    .description('List the lakers starting 5') 
+   .command('mopar <website>')
+    .description('Follow the website to build your own mopar car!') 
  
  //   .option('-k, --key <string>', 'String|phrase Key to Use')
    .action(function (password, options) {
