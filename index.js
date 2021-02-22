@@ -10,7 +10,33 @@ program
   .version('0.1.0', '-v, --version')
   .usage(' ');
   //.usage('encrypt|decrypt <password> <options>');
+ 
+  program
+  .command('mopar <password>')
+   .description('List the lakers starting 5') 
+
+//   .option('-k, --key <string>', 'String|phrase Key to Use')
+  .action(function (password, options) {
+    console.log("")
+    console.log(colors.yellow('   Extra Help Text'));
+    console.log("") 
+
+ 
+   });
+
+   program
+   .command('lakers <password>')
+    .description('List the lakers starting 5') 
+ 
+ //   .option('-k, --key <string>', 'String|phrase Key to Use')
+   .action(function (password, options) {
+     console.log("")
+     console.log(colors.yellow('   Extra Help Text'));
+     console.log("") 
+ 
   
+    });
+ 
 //   program
 //   .command('encrypt <password>')
 //   .description('Encrypt a plain text password')
