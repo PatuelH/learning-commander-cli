@@ -5,6 +5,8 @@ const colors   = require('colors');
 const debug   = require('debug')('commander:cli')
 const program = require('commander');
 const prompt  = require('prompt');
+const table = require('markdown-table')
+
 
 program
   .version('0.1.0', '-v, --version')
@@ -20,7 +22,15 @@ program
     console.log("")
     console.log(colors.yellow('   Extra Help Text'));
     console.log("") 
+console.log(
 
+  table([
+    ['Model', 'Horsepower'],
+    ['Dodge Srt Demon', '840hp'],
+    ['', 'fedcba9876543210']
+  ])
+)
+ console.log('')
  
    });
 
