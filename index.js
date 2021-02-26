@@ -27,11 +27,11 @@ console.log(
   table([
     ['Model', 'Horsepower'],
     ['Dodge Srt Demon', '840hp'],
-    ['', 'fedcba9876543210']
+    ['Dodge Srt SuperStock', '807hp']
   ])
 )
  console.log('')
- 
+
    });
 
    program
