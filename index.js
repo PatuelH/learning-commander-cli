@@ -20,7 +20,7 @@ program
 //   .option('-k, --key <string>', 'String|phrase Key to Use')
   .action(function (password, options) {
     console.log("")
-    console.log(colors.yellow('   Extra Help Text'));
+    console.log(colors.red('Greatest Muscles Car'));
     console.log("") 
 console.log(
 
@@ -28,6 +28,7 @@ console.log(
     ['Model', 'Horsepower'],
     ['Dodge Srt Demon', '840hp'],
     ['Dodge Srt SuperStock', '807hp']
+    ['Dodge', '']
   ])
 )
  console.log('')
@@ -35,15 +36,24 @@ console.log(
    });
 
    program
-   .command('mopar <website>')
+   .command('buildyourown')
     .description('Follow the website to build your own mopar car!') 
  
  //   .option('-k, --key <string>', 'String|phrase Key to Use')
-   .action(function (password, options) {
+   .action(function () {
      console.log("")
-     console.log(colors.yellow('   Extra Help Text'));
+    
+     console.log(colors.red('Greatest Muscles Car'));
      console.log("") 
+ console.log(
  
+   table([
+     ['Model', 'Website'],
+     ['Dodge Srt Demon', ''],
+     ['Dodge Srt SuperStock', '']
+     ['Dodge', '']
+   ])
+ )
   
     });
  
