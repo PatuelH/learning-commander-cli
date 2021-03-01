@@ -28,7 +28,11 @@ console.log(
     ['Model', 'Horsepower'],
     ['Dodge Srt Demon', '840hp'],
     ['Dodge Srt SuperStock', '807hp']
-    ['Dodge', '']
+    ['Dodge SRT Hellcat Redeye', '797hp']
+    ['Dodge SRT Hellcat Durango', '710hp']
+    ['Dodge SRT Hellcat', '710hp']
+    ['Jeep SRT Trackhawk', '710hp']
+    ['Dodge SRT 392 Scatpack', '485hp']
   ])
 )
  console.log('')
@@ -43,7 +47,7 @@ console.log(
    .action(function () {
      console.log("")
     
-     console.log(colors.red('Greatest Muscles Car'));
+     console.log(colors.red('Websites to build your own'));
      console.log("") 
  console.log(
  
