@@ -15,23 +15,23 @@ program
  
   program
   .command('mopar')
-   .description('List the top horsepower cars in order from greatest to least') 
+   .description('List of Mopars SRT models from most powerful to least') 
 
 //   .option('-k, --key <string>', 'String|phrase Key to Use')
   .action(function (password, options) {
     console.log("")
-    console.log(colors.red('Greatest Muscles Car'));
+    console.log(colors.red('Greatest Muscles Cars To Be Built'));
     console.log("") 
 console.log(
 
   table([
     ['Model', 'Horsepower'],
     ['Dodge Srt Demon', '840hp'],
-    ['Dodge Srt SuperStock', '807hp']
-    ['Dodge SRT Hellcat Redeye', '797hp']
-    ['Dodge SRT Hellcat Durango', '710hp']
-    ['Dodge SRT Hellcat', '710hp']
-    ['Jeep SRT Trackhawk', '710hp']
+    ['Dodge Srt SuperStock', '807hp'],
+    ['Dodge SRT Hellcat Redeye', '797hp'],
+    ['Dodge SRT Hellcat Durango', '710hp'],
+    ['Dodge SRT Hellcat', '707hp'],
+    ['Jeep GrandCherokee SRT Trackhawk', '707hp'],
     ['Dodge SRT 392 Scatpack', '485hp']
   ])
 )
@@ -40,8 +40,8 @@ console.log(
    });
 
    program
-   .command('buildyourown')
-    .description('Follow the website to build your own mopar car!') 
+   .command('byo')
+    .description('Follow the websites to build your own mopar cars!') 
  
  //   .option('-k, --key <string>', 'String|phrase Key to Use')
    .action(function () {
@@ -53,13 +53,14 @@ console.log(
  
    table([
      ['Model', 'Website'],
-     ['Dodge Srt Demon', ''],
-     ['Dodge Srt SuperStock', '']
-     ['Dodge', '']
+     ['Dodge Srt Demon', 'Mopar halted production of this model. Try your luck snagging one from a dealer or a local seller!'],
+     ['All other SRT Models', 'https://www.dodge.com/bmo.html#/vehicles'],
+     ['Jeep GrandCherokee SRT Trackhawk', 'https://www.jeep.com/bmo.html#/vehicles']
    ])
  )
   
     });
+ 
  
 //   program
 //   .command('encrypt <password>')
