@@ -1,4 +1,4 @@
-# learning-commander-cli
+# Hart-cli
 
 This is a description of my project
 
